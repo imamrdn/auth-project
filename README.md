@@ -17,7 +17,7 @@ This project is an example implementation of authentication (login and registrat
    ```sh
    git clone https://github.com/imamrdn/auth-project.git
 2. Directory entry
-   ``sh
+   ```sh
    cd auth-proejct
 3. Install PHP dependencies using Composer
    ```sh
