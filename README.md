@@ -1,49 +1,40 @@
 # Laravel Auth Project
 
-Proyek ini adalah contoh implementasi autentikasi (login dan register) menggunakan Laravel dengan framework Bootstrap CSS. Kata sandi yang digunakan dalam aplikasi ini harus memenuhi beberapa kriteria validasi menggunakan regex.
+This project is an example implementation of authentication (login and registration) using Laravel with the Bootstrap5 CSS framework. The passwords used in this application must meet several validation criteria using regex.
 
-## Fitur Utama
+## Main Features
 
-- **Autentikasi Pengguna**: Pendaftaran dan login pengguna.
-- **Validasi Kata Sandi**: Kata sandi harus memiliki:
-  - Huruf besar
-  - Huruf kecil
-  - Angka
-  - Karakter spesial
+- **User Authentication**: User registration and login.
+- **Password Validation**: Password must contain:
+  - Uppercase letters
+  - Lowercase letters
+  - Numbers
+  - Special characters
 
-## Prasyarat
+## Installation
 
-Pastikan Anda telah menginstal perangkat lunak berikut:
-
-- [Composer](https://getcomposer.org/)
-- [Node.js](https://nodejs.org/)
-
-## Instalasi
-
-1. Clone repositori ini ke mesin lokal Anda
+1. Clone this repository to your local machine
    ```sh
    git clone https://github.com/imamrdn/auth-project.git
-2. Masuk direktori
-   ```sh
+2. Directory entry
+   ``sh
    cd auth-proejct
-3. Instal dependensi PHP menggunakan Composer
+3. Install PHP dependencies using Composer
    ```sh
    composer install
-4. Instal dependensi JavaScript menggunakan npm
+4. Install JavaScript dependencies using npm
     ```sh
     npm install
-5. Salin file .env.example menjadi .env dan sesuaikan konfigurasi database
+5. Copy the .env.example file into .env and customize the database configuration
     ```sh
     cp .env.example .env
-6. Generate kunci aplikasi dan jalankan migrasi database
+6. Generate the application key and run the database migration
     ```sh
     php artisan key:generate
     php artisan migrate
-7. Anda bisa menggunakan akun yang telah disediakan pada seeder
+7. You can use the account provided in the seeder
     ```sh
     php artisan db:seed
-8. Jalankan server Laravel
+8. Run the Laravel server
     ```sh
     php artisan serve
-
-
