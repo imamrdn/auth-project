@@ -34,7 +34,10 @@ This project is an example implementation of authentication (login and registrat
     php artisan migrate
 7. You can use the account provided in the seeder
     ```sh
+    Email   : super@admin.com
+    Pass    : Admin@123
+    
     php artisan db:seed
-8. Run the Laravel server
+9. Run the Laravel server
     ```sh
     php artisan serve
