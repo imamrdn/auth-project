@@ -41,3 +41,9 @@ This project is an example implementation of authentication (login and registrat
 9. Run the Laravel server
     ```sh
     php artisan serve
+
+## Application Usage
+
+- Register a new user by accessing the /register route.
+- Log into the app with the registered account using the /login route.
+- Explore the features of the application that have been provided.
