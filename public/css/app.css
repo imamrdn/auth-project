@@ -1,0 +1,35 @@
+/* or line */
+
+.line-or {
+  display: flex;
+  align-items: center;
+}
+
+.line-or::before,
+.line-or::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.line-or::before {
+  margin-right: .25em;
+}
+
+.line-or::after {
+  margin-left: .25em;
+}
+
+/* login button */
+.card-oauth {
+  border: none;
+  outline: none;
+  box-shadow: 20px 30px 45px -35px rgba(0,0,0,0.2);
+}
+
+.oauth {
+  border: 1px solid #dfdfdf;
+  background-color: white;
+  padding: 5px;
+  margin: 0 5px ;
+}
